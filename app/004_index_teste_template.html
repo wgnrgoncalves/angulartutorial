@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="phonecatApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Pagina com template</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="app_004.js"></script>
+    </head>
+    <body ng-controller="PhoneListController">
+        <ul>
+            <li ng-repeat="phone in phones">
+                <span>{{phone.name}}</span>
+                <p>{{phone.snippet}}</p>
+            </li>
+        </ul>
+    </body>
+
+</html>
