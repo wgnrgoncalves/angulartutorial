@@ -4,6 +4,9 @@
   "description": "Projeto de teste angular",
   "main": "index.js",
   "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
