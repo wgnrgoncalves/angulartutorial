@@ -4,6 +4,13 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+angular-phonecat-snapshots
+.idea
+.DS_Store
+!.gitkeep
+
+logs/*
+tmp
 
 # Runtime data
 pids
