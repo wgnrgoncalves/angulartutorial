@@ -1,0 +1,15 @@
+{
+  "name": "angulartutorial",
+  "authors": [
+    "wgnrgoncalves <wgnrgoncalves@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "1.7.x",
+    "bootstrap": "3.3.x"
+   }
+}
