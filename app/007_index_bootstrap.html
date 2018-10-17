@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="phonecatApp">
+<html ng-app="carroApp">
 
 <head>
     <meta charset="utf-8">
@@ -68,13 +68,7 @@
         </nav>
         <div class="jumbotron">
             <h1>Navbar example</h1>
-            <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar
-                work.
-                It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-            <p>
-                <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs
-                    &raquo;</a>
-            </p>
+            <carro-List></carro-List>
         </div>
 
     </div>
@@ -84,7 +78,10 @@
 
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-    <script src="007_app.js"></script>
+    
+    <script src="007_app.module.js"></script>
+    <script src="carro-list/carro-list.module.js"></script>
+    <script src="carro-list/carro-list.component.js"></script>
 </body>
 
 </html>

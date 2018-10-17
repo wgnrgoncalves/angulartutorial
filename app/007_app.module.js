@@ -1,0 +1,1 @@
+var carroApp = angular.module('carroApp',['carroList']);
